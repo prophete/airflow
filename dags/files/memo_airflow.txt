@@ -1,0 +1,84 @@
+DAG
+
+Taches : 
+
+Opérateurs : un opérateur est une unité logique utilisée pour exécuter une tache.
+types d’opérateurs  http mysql postgre jdbc docker hive s3 etc 
+
+Scheduling : https://docs.astronomer.io/learn/scheduling-in-airflow
+
+https://airflow.apache.org/docs/apache-airflow/stable/authoring-and-scheduling/timetable.html
+
+Cron tester : https://crontab.guru/
+
+Cron example : https://crontab.guru/examples.html
+
+https://infinitelambda.com/airflow-start-date-execution-date/
+
+date : pour avoir l’heure de la machine 
+pendulum.datetime(2023, 6, 1, 12, 43, tz="Europe/Paris"), # pour changer de zone
+
+
+postgres=# \dt
+
+docker ps
+
+gitpod /workspace/airflow (main) $ docker ps
+CONTAINER ID   IMAGE                  COMMAND                  CREATED       STATUS                   PORTS                                       NAMES
+4e9a289aca23   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 3 minutes (healthy)   8080/tcp                                    airflow-airflow-worker-1
+9f211df57a47   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 3 minutes (healthy)   8080/tcp                                    airflow-airflow-triggerer-1
+1c7102b4a360   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 3 minutes (healthy)   8080/tcp                                    airflow-airflow-scheduler-1
+3860b03366dc   apache/airflow:2.5.1   "/usr/bin/dumb-init …"   3 hours ago   Up 3 minutes (healthy)   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   airflow-airflow-webserver-1
+82fa696fa3fc   postgres:13            "docker-entrypoint.s…"   3 hours ago   Up 3 minutes (healthy)   5432/tcp                                    airflow-postgres-1
+5d87f5c92adb   redis:latest           "docker-entrypoint.s…"   3 hours ago   Up 3 minutes (healthy)   6379/tcp                                    airflow-red
+
+Se connecter à la base postgre ou un container en général
+docker exec -ti 82fa696fa3fc  psql -U airflow -d airflow
+
+Liste des tables dispo :
+airflow-# postgres=# \dt
+
+ List of relations
+ Schema |              Name              | Type  |  Owner  
+--------+--------------------------------+-------+---------
+ public | ab_permission                  | table | airflow
+ public | ab_permission_view             | table | airflow
+ public | ab_permission_view_role        | table | airflow
+ public | ab_register_user               | table | airflow
+ public | ab_role                        | table | airflow
+ public | ab_user                        | table | airflow
+ public | ab_user_role                   | table | airflow
+ public | ab_view_menu                   | table | airflow
+ public | alembic_version                | table | airflow
+ public | callback_request               | table | airflow
+ public | celery_taskmeta                | table | airflow
+ public | celery_tasksetmeta             | table | airflow
+ public | connection                     | table | airflow
+ public | dag                            | table | airflow
+ public | dag_code                       | table | airflow
+ public | dag_owner_attributes           | table | airflow
+ public | dag_pickle                     | table | airflow
+ public | dag_run                        | table | airflow
+ public | dag_run_note                   | table | airflow
+ public | dag_schedule_dataset_reference | table | airflow
+
+https://github.com/kplr-training/Airflow/blob/main/Ateliers/Solutions/04-ETL%20Pipeline%20-%20Postgres.ipynb
+
+
+https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/operators/postgres_operator_howto_guide.html
+
+Découplage de DAG
+
+https://github.com/kplr-training/Airflow/blob/main/Ateliers/Solutions/03-DAG%20Decoupling.ipynb
+
+Parrallelisation AUTO de DAG 
+https://docs.astronomer.io/learn/airflow-scaling-workers
+https://airflow.apache.org/docs/apache-airflow/stable/faq.html
+https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html#config-core-max-active-tasks-per-dag
+
+https://www.alphavantage.co/documentation/
+https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo
+
+https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/models/taskinstance/index.html
+
+
