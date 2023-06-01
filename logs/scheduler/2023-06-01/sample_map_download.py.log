@@ -1,0 +1,105 @@
+[2023-06-01T14:47:17.465+0000] {processor.py:153} INFO - Started process (PID=18567) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:47:17.466+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:47:17.467+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:47:17.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:47:17.489+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:47:17.511+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:47:17.510+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:47:17.534+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:47:17.534+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:47:17.550+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.087 seconds
+[2023-06-01T14:47:47.974+0000] {processor.py:153} INFO - Started process (PID=18649) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:47:47.975+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:47:47.975+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:47:47.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:47:48.000+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:47:48.025+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:47:48.025+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:47:48.057+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:47:48.056+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:47:48.077+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.106 seconds
+[2023-06-01T14:48:18.604+0000] {processor.py:153} INFO - Started process (PID=18707) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:48:18.605+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:48:18.606+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:48:18.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:48:18.633+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:48:18.659+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:48:18.659+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:48:18.692+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:48:18.692+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:48:18.718+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.117 seconds
+[2023-06-01T14:48:49.273+0000] {processor.py:153} INFO - Started process (PID=18774) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:48:49.275+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:48:49.275+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:48:49.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:48:49.302+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:48:49.329+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:48:49.329+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:48:49.361+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:48:49.361+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:48:49.380+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.109 seconds
+[2023-06-01T14:49:19.935+0000] {processor.py:153} INFO - Started process (PID=18847) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:49:19.936+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:49:19.937+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:49:19.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:49:19.958+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:49:19.977+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:49:19.977+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:49:20.004+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:49:20.003+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:49:20.020+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.087 seconds
+[2023-06-01T14:49:50.459+0000] {processor.py:153} INFO - Started process (PID=18905) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:49:50.460+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:49:50.461+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:49:50.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:49:50.483+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:49:50.506+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:49:50.506+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:49:50.532+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:49:50.532+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:49:50.550+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.094 seconds
+[2023-06-01T14:50:21.090+0000] {processor.py:153} INFO - Started process (PID=18987) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:50:21.091+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:50:21.091+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:50:21.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:50:21.115+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:50:21.139+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:50:21.139+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:50:21.167+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:50:21.167+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:50:21.182+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.095 seconds
+[2023-06-01T14:50:51.573+0000] {processor.py:153} INFO - Started process (PID=19045) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:50:51.574+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:50:51.575+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:50:51.575+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:50:51.598+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:50:51.619+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:50:51.619+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:50:51.646+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:50:51.646+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:50:51.666+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.095 seconds
+[2023-06-01T14:51:22.257+0000] {processor.py:153} INFO - Started process (PID=19127) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:51:22.259+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:51:22.260+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:51:22.259+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:51:22.289+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:51:22.320+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:51:22.319+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:51:22.358+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:51:22.358+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:51:22.383+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.131 seconds
+[2023-06-01T14:51:53.166+0000] {processor.py:153} INFO - Started process (PID=19185) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:51:53.167+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:51:53.167+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:51:53.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:51:53.190+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:51:53.213+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:51:53.212+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:51:53.240+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:51:53.240+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:51:53.266+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.102 seconds
+[2023-06-01T14:52:23.748+0000] {processor.py:153} INFO - Started process (PID=19267) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:52:23.749+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:52:23.749+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:52:23.749+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:52:23.772+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:52:23.792+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:52:23.792+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:52:23.815+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:52:23.815+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:52:23.832+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.087 seconds
+[2023-06-01T14:52:54.256+0000] {processor.py:153} INFO - Started process (PID=19325) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:52:54.257+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:52:54.257+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:52:54.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:52:54.283+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:52:54.306+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:52:54.306+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:52:54.332+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:52:54.332+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:52:54.351+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.097 seconds
+[2023-06-01T14:53:24.736+0000] {processor.py:153} INFO - Started process (PID=19407) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:53:24.737+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:53:24.737+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:53:24.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:53:24.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:53:24.781+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:53:24.781+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:53:24.806+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:53:24.806+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:53:24.821+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.087 seconds
+[2023-06-01T14:53:55.500+0000] {processor.py:153} INFO - Started process (PID=19465) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:53:55.501+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:53:55.502+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:53:55.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:53:55.523+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:53:55.547+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:53:55.546+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:53:55.575+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:53:55.575+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:53:55.592+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.095 seconds
+[2023-06-01T14:54:26.064+0000] {processor.py:153} INFO - Started process (PID=19547) to work on /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:54:26.064+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/sample_map_download.py for tasks to queue
+[2023-06-01T14:54:26.065+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:54:26.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:54:26.085+0000] {processor.py:753} INFO - DAG(s) dict_keys(['single_map-download-ctx']) retrieved from /opt/airflow/dags/sample_map_download.py
+[2023-06-01T14:54:26.104+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:54:26.104+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-06-01T14:54:26.128+0000] {logging_mixin.py:137} INFO - [2023-06-01T14:54:26.128+0000] {dag.py:3441} INFO - Setting next_dagrun for single_map-download-ctx to 2023-06-01T00:00:00+00:00, run_after=2023-06-02T00:00:00+00:00
+[2023-06-01T14:54:26.142+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/sample_map_download.py took 0.081 seconds
